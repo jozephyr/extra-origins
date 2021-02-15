@@ -1,11 +1,11 @@
 {
   "powers": [
-	"extraorigins:bite_sized",
-	"extraorigins:bite_sized_dummy",
-	"extraorigins:nimble",
-	"extraorigins:small_appetite",
+	"morigins:bite_sized",
+	"morigins:bite_sized_dummy",
+	"morigins:nimble",
+	"morigins:small_appetite",
 	"origins:climbing",
-	"extraorigins:short_arms"
+	"morigins:short_arms"
   ],
   "icon": "anvil",
   "order": 1,

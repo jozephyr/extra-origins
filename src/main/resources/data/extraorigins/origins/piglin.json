@@ -1,13 +1,13 @@
 {
   "powers": [
-	"extraorigins:all_that_glitters",
-	"extraorigins:piglin_neutrality",
-	"extraorigins:crossbow_master",
+	"morigins:all_that_glitters",
+	"morigins:piglin_neutrality",
+	"morigins:crossbow_master",
 	"origins:nether_spawn",
-	"extraorigins:homesick",
+	"morigins:homesick",
 	"origins:carnivore",
-	"extraorigins:flabby",
-	"extraorigins:soul_spooked"
+	"morigins:flabby",
+	"morigins:soul_spooked"
   ],
   "icon": "golden_sword",
   "order": 1,

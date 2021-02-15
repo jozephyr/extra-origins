@@ -1,11 +1,11 @@
 {
   "powers": [
 	"origins:translucent",
-	"extraorigins:inorganic",
-	"extraorigins:effect_immunity",
-	"extraorigins:glass_cannon",
-	"extraorigins:glass_cannon_dummy",
-	"extraorigins:antivore"
+	"morigins:inorganic",
+	"morigins:effect_immunity",
+	"morigins:glass_cannon",
+	"morigins:glass_cannon_dummy",
+	"morigins:antivore"
   ],
   "icon": "glass",
   "order": 1,

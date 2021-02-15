@@ -1,5 +1,5 @@
 {
-  "type": "extraorigins:regenerate_hunger",
+  "type": "morigins:regenerate_hunger",
   "amount": 1,
   "chance": 0.0125,
   "condition": {

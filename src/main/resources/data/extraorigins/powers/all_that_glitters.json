@@ -8,7 +8,7 @@
   "item_condition": {
 	"type": "origins:ingredient",
 	"ingredient": {
-	  "tag": "extraorigins:golden_tools"
+	  "tag": "morigins:golden_tools"
 	}
   }
 }

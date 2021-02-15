@@ -28,7 +28,7 @@
 		"name": "fallingBlock"
 	  },
 	  {
-		"type": "extraorigins:thorns_enchantment"
+		"type": "morigins:thorns_enchantment"
 	  },
 	  {
 		"type": "origins:fire"

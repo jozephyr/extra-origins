@@ -1,9 +1,9 @@
 {
   "replace": false,
   "origins": [
-	"extraorigins:floran",
-	"extraorigins:glass_golem",
-	"extraorigins:inchling",
-	"extraorigins:piglin"
+	"morigins:floran",
+	"morigins:glass_golem",
+	"morigins:inchling",
+	"morigins:piglin"
   ]
 }

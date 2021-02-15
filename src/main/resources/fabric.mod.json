@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "extraorigins",
+  "id": "morigins",
   "version": "${version}",
   "name": "Extra Origins",
   "description": "Adds more origins to the Origins mod",
   "authors": [
-	"MoriyaShiine"
+	"bashbros"
   ],
   "contact": {
 	"homepage": "https://www.curseforge.com/minecraft/mc-mods/extra-origins",
-	"sources": "https://github.com/MoriyaShiine/extra-origins"
+	"sources": "https://github.com/bashbros/extra-origins"
   },
   "license": "GPL-3.0",
-  "icon": "assets/extraorigins/icon.png",
+  "icon": "assets/morigins/icon.png",
   "environment": "*",
   "entrypoints": {
 	"main": [
-	  "moriyashiine.extraorigins.common.ExtraOrigins"
+	  "bashbros.morigins.common.morigins"
 	],
 	"client": [
-	  "moriyashiine.extraorigins.client.ExtraOriginsClient"
+	  "bashbros.morigins.client.MoriginsClient"
 	]
   },
   "mixins": [
-	"extraorigins.mixins.json"
+	"morigins.mixins.json"
   ],
   "depends": {
 	"fabricloader": ">=0.11.0",

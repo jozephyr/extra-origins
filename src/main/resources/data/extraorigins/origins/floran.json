@@ -1,10 +1,10 @@
 {
   "powers": [
-	"extraorigins:green_thumb",
-	"extraorigins:photosynthesis",
-	"extraorigins:absorbing",
-	"extraorigins:flammable",
-	"extraorigins:antivore"
+	"morigins:green_thumb",
+	"morigins:photosynthesis",
+	"morigins:absorbing",
+	"morigins:flammable",
+	"morigins:antivore"
   ],
   "icon": "oak_sapling",
   "order": 1,
