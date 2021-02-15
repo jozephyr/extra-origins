@@ -7,7 +7,7 @@ import bashbros.morigins.common.registry.MOPowers;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking;
 
-public class morigins implements ModInitializer {
+public class Morigins implements ModInitializer {
 	public static final String MODID = "morigins";
 	
 	@Override

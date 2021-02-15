@@ -1,7 +1,7 @@
 package bashbros.morigins.common.network.packet;
 
 import io.netty.buffer.Unpooled;
-import bashbros.morigins.common.morigins;
+import bashbros.morigins.common.Morigins;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
 import net.fabricmc.fabric.api.networking.v1.PacketSender;
 import net.minecraft.block.BlockState;
@@ -15,7 +15,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.BlockPos;
 
 public class BoneMealPacket {
-	public static final Identifier ID = new Identifier(morigins.MODID, "bone_meal");
+	public static final Identifier ID = new Identifier(Morigins.MODID, "bone_meal");
 	
 	public static void send(BlockPos pos) {
 		PacketByteBuf buf = new PacketByteBuf(Unpooled.buffer());

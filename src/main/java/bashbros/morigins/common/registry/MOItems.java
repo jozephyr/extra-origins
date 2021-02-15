@@ -1,6 +1,6 @@
 package bashbros.morigins.common.registry;
 
-import bashbros.morigins.common.morigins;
+import bashbros.morigins.common.Morigins;
 import bashbros.morigins.common.item.LiquidSunlightItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -16,7 +16,7 @@ public class MOItems {
 	public static final Item LIQUID_SUNLIGHT = create("liquid_sunlight", new LiquidSunlightItem(new Item.Settings().group(ItemGroup.FOOD).maxCount(16)));
 	
 	private static <T extends Item> T create(String name, T item) {
-		ITEMS.put(item, new Identifier(morigins.MODID, name));
+		ITEMS.put(item, new Identifier(Morigins.MODID, name));
 		return item;
 	}
 	

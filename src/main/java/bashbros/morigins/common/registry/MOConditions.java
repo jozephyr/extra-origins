@@ -3,7 +3,7 @@ package bashbros.morigins.common.registry;
 import io.github.apace100.origins.power.factory.condition.ConditionFactory;
 import io.github.apace100.origins.registry.ModRegistries;
 import io.github.apace100.origins.util.SerializableData;
-import bashbros.morigins.common.morigins;
+import bashbros.morigins.common.Morigins;
 import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.damage.EntityDamageSource;
 import net.minecraft.util.Identifier;
@@ -16,7 +16,7 @@ import java.util.Map;
 public class MOConditions {
 	private static final Map<ConditionFactory<Pair<DamageSource, Float>>, Identifier> DAMAGE_CONDITIONS = new LinkedHashMap<>();
 	
-	public static final ConditionFactory<Pair<DamageSource, Float>> THORNS_ENCHANTMENT = createDamageCondition(new ConditionFactory<>(new Identifier(morigins.MODID, "thorns_enchantment"), new SerializableData(), (data, dmg) -> dmg.getLeft() instanceof EntityDamageSource && ((EntityDamageSource) dmg.getLeft()).isThorns()));
+	public static final ConditionFactory<Pair<DamageSource, Float>> THORNS_ENCHANTMENT = createDamageCondition(new ConditionFactory<>(new Identifier(Morigins.MODID, "thorns_enchantment"), new SerializableData(), (data, dmg) -> dmg.getLeft() instanceof EntityDamageSource && ((EntityDamageSource) dmg.getLeft()).isThorns()));
 	
 	private static ConditionFactory<Pair<DamageSource, Float>> createDamageCondition(ConditionFactory<Pair<DamageSource, Float>> factory) {
 		DAMAGE_CONDITIONS.put(factory, factory.getSerializerId());
