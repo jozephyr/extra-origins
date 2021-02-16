@@ -1,0 +1,28 @@
+{
+  "powers": [
+  "origins:aerial_combatant",
+	"origins:aqua_affinity",
+  "origins:burning_wrath",
+  "origins:cat_vision",
+  "origins:climbing",
+  "morigins:anec_nhoj",
+  "origins:elytra",
+  "morigins:screech_powers",
+  "origins:fall_immunity",
+  "origins:fire_immunity",
+  "origins:hotblooded",
+  "origins:natural_armor",
+  "origins:no_cobweb_slowdown",
+  "origins:scare_creepers",
+  "origins:sprint_jump",
+  "origins:strong_arms",
+  "origins:strong_arms_break_speed",
+  "origins:swim_speed",
+  "origins:tailwind",
+  "origins:webbing",
+  "origins:phasing"
+  ],
+  "icon": "nether_wart",
+  "order": 1,
+  "impact": 2
+}
