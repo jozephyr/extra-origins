@@ -1,9 +1,6 @@
 {
   "replace": false,
   "origins": [
-	"morigins:floran",
-	"morigins:glass_golem",
-	"morigins:inchling",
-	"morigins:piglin"
+	"morigins:wart"
   ]
 }

@@ -2,21 +2,21 @@
   "schemaVersion": 1,
   "id": "morigins",
   "version": "${version}",
-  "name": "Extra Origins",
+  "name": "More Origins",
   "description": "Adds more origins to the Origins mod",
   "authors": [
 	"bashbros"
   ],
   "contact": {
 	"homepage": "https://www.curseforge.com/minecraft/mc-mods/morigins",
-	"sources": "https://github.com/bashbros/extra-origins"
+	"sources": "https://github.com/bashbros/morigins"
   },
   "license": "GPL-3.0",
   "icon": "assets/morigins/icon.png",
   "environment": "*",
   "entrypoints": {
 	"main": [
-	  "bashbros.morigins.common.morigins"
+	  "bashbros.morigins.common.Morigins"
 	],
 	"client": [
 	  "bashbros.morigins.client.MoriginsClient"
